@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pandla
 潘多拉星球(Uni-app)Android版本已有内测版可下载，IOS版本现仅供内部人员测试
 此项目基于安全考虑删除部分配置文件及API，无法运行，仅做技术展示
@@ -37,3 +38,7 @@
 |——　README.md  
 |——　service.js  
 |——　uni.scss
+=======
+# uni-app
+区块链社交软件
+>>>>>>> f773eb16d77435b84017600f163e5d77feed90f9
