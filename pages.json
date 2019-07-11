@@ -1,0 +1,392 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, 
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/im-chat/im-chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/pact/pact",
+			"style": {
+				"navigationBarTitleText": "星球公約",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/pact/pactVoteDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/daily/daily",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/daily/publish",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "發表",
+							"fontSize": "35upx"
+						}]
+					},
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/daily/userInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "星球特供",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/game/game",
+			"style": {
+				"navigationBarTitleText": "星球游戲",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/nearby/nearby",
+			"style": {
+				"navigationBarTitleText": "附近居民",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/entertain/entertain",
+			"style": {
+				"navigationBarTitleText": "位置 | 活動",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/entertain/entertainDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/entertain/entertainApplication",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/entertain/entertainUpload",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "提交",
+							"fontSize": "35upx"
+						}]
+					},
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+
+			}
+		}, {
+			"path": "pages/user/update",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "通讯",
+				"navigationBarBackgroundColor": "#E1E1E1",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6a4",
+							"fontSrc": "https://at.alicdn.com/t/font_1258335_6h11trbb733.ttf",
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					},
+					"bounce":"none"
+				}
+			}
+
+		},
+
+		{
+			"path": "pages/pan/pan",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/pan/donateList",
+			"style": {
+				"navigationBarTitleText": "捐贈榜單",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/ledger/asset",
+			"style": {
+				"navigationBarTitleText": "PAN幣賬本",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/ledger/focus",
+			"style": {
+				"navigationBarTitleText": "原力賬本",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/purse/purse",
+			"style": {
+				"navigationBarTitleText": "我的錢包",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/passport/passport",
+			"style": {
+				"navigationBarTitleText": "星球護照",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "實名認證",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "我的專屬邀請碼",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/base/base",
+			"style": {
+				"navigationBarTitleText": "星球基地",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/strategy/strategy",
+			"style": {
+				"navigationBarTitleText": "星球攻略",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/welfare/welfare",
+			"style": {
+				"navigationBarTitleText": "星球公益",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+			"path": "settingChat/settingChat",
+			"style": {
+				"navigationBarTitleText": "提醒设置",
+				"navigationBarBackgroundColor": "#E1E1E1",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						// "buttons": [{
+						// 	"text": "\ue668",
+						// 	"fontSrc": "https://at.alicdn.com/t/font_1258335_il44vot1ah9.ttf",
+						// 	"fontSize": "22px",
+						// 	"float": "left",
+						// 	"color": "#999999"
+						// }]
+					}
+				}
+			}
+		}]
+	}],
+	"tabBar": {
+		"color": "#767676",
+		"selectedColor": "#EFEFF4",
+		"backgroundColor": "#000000",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首頁",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/homeHL.png"
+		}, {
+			"pagePath": "pages/msg/msg",
+			"text": "通訊",
+			"iconPath": "static/img/tabbar/msg.png",
+			"selectedIconPath": "static/img/tabbar/msgHL.png"
+		}, {
+			"pagePath": "pages/pan/pan",
+			"text": "PAN",
+			"iconPath": "static/img/tabbar/PAN.png",
+			"selectedIconPath": "static/img/tabbar/PANHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/tabbar/user.png",
+			"selectedIconPath": "static/img/tabbar/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#fbf9fe"
+	},
+	"condition": { //编译模式配置，仅开发期间生效  
+		"current": 0, //当前激活的编译模式（list 的索引项）  
+		"list": [{
+			"name": "daily", //模式名称  
+			"pathName": "pages/daily/daily", //启动页面，必选  
+			"query": "id=1" //启动参数, QueryString 格式  
+		}]
+	}
+}
